@@ -42,7 +42,7 @@ jobs:
       - name: Pull remote changes
         run: git pull
       - name: Push log #更新日志
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "ssh-login log"
           branch: main
